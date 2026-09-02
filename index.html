@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Showreel and CV." />
+  <title>Bartłomiej Jarosz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">BARTŁOMIEJ&nbsp;JAROSZ</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#showreel">Showreel</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <p class="roll" data-role>Video Editor · Content Creator</p>
+      <h1>BARTŁOMIEJ&nbsp;JAROSZ</h1>
+      <p class="tagline">I make your vision become reality</p>
+      <div class="hero-cta">
+        <a class="btn" href="#showreel">Watch showreel</a>
+        <a class="btn ghost" href="cv.pdf" target="_blank" rel="noopener">Download CV</a>
+      </div>
+    </section>
+
+    <!-- Showreel -->
+    <section id="showreel" class="panel">
+      <h2 class="panel-title">Showreel</h2>
+      <div class="video-wrap">
+        <!-- Replace src with a hosted mp4 to play. Poster is a browser fallback. -->
+        <video controls preload="metadata"
+               poster="poster.jpg">
+          <source src="showreel.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p class="caption">Runtime ~1 min · Replace <code>showreel.mp4</code> and <code>poster.jpg</code> with your own files.</p>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="panel">
+      <h2 class="panel-title">About</h2>
+      <p class="lead">
+        A few sentences introducing who you are, what you make, and the kind of
+        work and teams you thrive with. Keep it human and specific.
+      </p>
+    </section>
+
+
+
+    <!-- Experience -->
+    <section id="experience" class="panel">
+      <h2 class="panel-title">Experience</h2>
+      <ol class="timeline">
+        <li class="job">
+          <h3>Job title <span class="co">— Company</span></h3>
+          <p class="meta">Month Year – Month Year</p>
+          <p>What you did and the impact you had. Tight, results-led lines.</p>
+        </li>
+        <li class="job">
+          <h3>Job title <span class="co">— Company</span></h3>
+          <p class="meta">Month Year – Month Year</p>
+          <p>What you did and the impact you had.</p>
+        </li>
+        <li class="job">
+          <h3>Education <span class="co">— Institution</span></h3>
+          <p class="meta">Year – Year</p>
+          <p>Degree, focus, and anything notable.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="panel">
+      <h2 class="panel-title">Skills</h2>
+      <div class="chips" data-chips>
+        <span>Skill</span><span>Skill</span><span>Skill</span>
+        <span>Skill</span><span>Skill</span><span>Skill</span>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="panel">
+      <h2 class="panel-title">Contact</h2>
+      <div class="contact-links">
+        <a class="btn" href="mailto:bjarosz98@gmail.com">Email</a>
+        <a class="btn ghost" href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" href="https://linkedin.com/in/barjar98" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span data-year></span> Bartłomiej Jarosz 2026</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
